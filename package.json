@@ -1,0 +1,23 @@
+{
+  "name": "ts-express-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "yarn run ts-node src/app.ts",
+    "serve-debug": "nodemon src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bcrypt-nodejs": "^0.0.30",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
